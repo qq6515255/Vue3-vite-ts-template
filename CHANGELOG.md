@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.7](///compare/v0.5.6...v0.5.7) (2023-05-25)
+
+
+### ✅ Tests | 测试
+
+* 测试 f6ae9ee
+
 ### [0.0.2](///compare/v0.5.6...v0.0.2) (2023-05-25)
 
 ### [0.5.6](https://github.com/yulimchen/vue3-h5-template/compare/v0.5.5...v0.5.6) (2023-05-25)

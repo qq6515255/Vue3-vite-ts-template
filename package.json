@@ -1,7 +1,7 @@
 {
   "name": "vue3-h5-template",
   "homepage": "",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "license": "MIT",
   "engines": {
     "node": ">= 16"
@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "prepare": "husky install",
-    "commit": "czg",
+    "commit": "git add . && git-cz",
     "lint:eslint": "eslint --cache --max-warnings 0  \"{src,mock}/**/*.{vue,ts,tsx}\" --fix",
     "lint:prettier": "prettier --write  \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
     "lint:stylelint": "stylelint --cache --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
