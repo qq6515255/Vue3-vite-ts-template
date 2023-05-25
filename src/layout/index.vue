@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import Tabbar from "@/components/Tabbar/index.vue";
-import NavBar from "@/components/NavBar/index.vue";
-import { useCachedViewStoreHook } from "@/store/modules/cachedView";
-import { useDarkMode } from "@/hooks/useToggleDarkMode";
-import { computed } from "vue";
+  import Tabbar from '@/components/Tabbar/index.vue';
+  import NavBar from '@/components/NavBar/index.vue';
+  import { useCachedViewStoreHook } from '@/store/modules/cachedView';
+  import { useDarkMode } from '@/hooks/useToggleDarkMode';
+  import { computed } from 'vue';
 
-const cachedViews = computed(() => {
-  return useCachedViewStoreHook().cachedViewList;
-});
+  const cachedViews = computed(() => {
+    return useCachedViewStoreHook().cachedViewList;
+  });
 </script>
 
 <template>
@@ -25,12 +25,12 @@ const cachedViews = computed(() => {
 </template>
 
 <style lang="less" scoped>
-@import "@/styles/mixin.less";
+  @import '@/styles/mixin.less';
 
-.app-wrapper {
-  .clearfix();
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
+  .app-wrapper {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    .clearfix();
+  }
 </style>
