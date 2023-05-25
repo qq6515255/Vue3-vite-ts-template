@@ -1,7 +1,7 @@
 {
   "name": "vue3-h5-template",
   "homepage": "https://yulimchen.github.io/vue3-h5-template/",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
     "lint:eslint": "eslint --cache --max-warnings 0  \"{src,mock}/**/*.{vue,ts,tsx}\" --fix",
     "lint:prettier": "prettier --write  \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
     "lint:stylelint": "stylelint --cache --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
-    "lint:lint-staged": "lint-staged"
+    "lint:lint-staged": "lint-staged",
+    "release": "standard-version"
   },
   "dependencies": {
     "axios": "^1.2.6",
