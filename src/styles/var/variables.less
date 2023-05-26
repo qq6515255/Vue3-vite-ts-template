@@ -1,5 +1,10 @@
 :root {
-  --color-text: var(--van-text-color, #323233);
+  --color-text:
+    var(
+      --van-text-color,
+      #323233
+    ); // 如果 --van-text-color 这个变量不存在，则使用默认值 #323233。
+
   --color-background-2: var(--van-background-2, #fff);
   --color-block-background: var(--van-border-color, #ebedf0);
 }
